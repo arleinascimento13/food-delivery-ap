@@ -1,4 +1,5 @@
 import './product-class.css'
+import NewOrder from '../../../functions/new-order/new-order'
 
 
 export default function Product()
@@ -15,7 +16,7 @@ export default function Product()
             Phasellus vel.
             </p>
         </div>
-        <div className="add-cart-btn">
+        <div className="add-cart-btn" onClick={NewOrder}>
             <p className='vaitomanocu'>+</p>
         </div>
 
