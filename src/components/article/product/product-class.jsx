@@ -1,5 +1,6 @@
 import './product-class.css'
 
+
 export default function Product()
 {
     return<>
@@ -9,8 +10,10 @@ export default function Product()
 
             <h1 className="product-name"> Lorem Ipsumn </h1>
 
-            <p className="product-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Phasellus vel.</p>
+            <p className="product-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus vel.
+            </p>
         </div>
         <div className="add-cart-btn">
             <p className='vaitomanocu'>+</p>

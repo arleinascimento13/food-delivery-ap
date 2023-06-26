@@ -1,12 +1,16 @@
+import { CgMenu, CgShoppingCart } from 'react-icons/cg'
 import './nav-bar.css'
 
 export default function NavBar() {
     
     return <>
+
+
         <div className='nav-bar-itens'>
-            <img className='icon' src="public/assets/menu-icon.png"/>
+            <div className="div-icon-b"><CgMenu size="2.5rem" color='white'/></div>
             <img className='logo-bbq' src="public/assets/logo-bbq.png"/>
-            <img className='icon' src="public/assets/shopping-cart-icon.png"/>
+            <div className="div-icon-b"><CgShoppingCart size="2.5rem" color='white'/></div>
+            
         </div>
     </>
 }

@@ -7,7 +7,7 @@ export function Article()
     return<>
     <div className="screen">
         <div className='title'>
-            <h1 className='title'>Burguers</h1>
+            <h1 className='title'>BURGUERS</h1>
         </div>
 
     <Product />
