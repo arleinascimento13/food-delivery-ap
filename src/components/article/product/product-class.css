@@ -1,0 +1,63 @@
+div.product-bg
+{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(246,125,33,1) 0%, rgba(253,92,44,1) 100%);
+    width: 568px;
+    height: 379px;
+    border-radius: 25px;
+}
+
+.product-cover
+{
+    width: 530px;
+    height: 340px;
+}
+
+div.text-area
+{
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: 200px;
+    width: 530px;
+    height: 140px;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.product-name
+{
+    margin: 20px;
+    position: absolute;
+    color: white;
+}
+
+.product-description
+{
+    color: white;
+    margin: 65px 0px 0px 20px;
+    max-width: 380px;
+}
+
+.add-cart-btn
+{
+    background: linear-gradient(290deg, rgba(246,125,33,1) 0%, rgba(253,92,44,1) 100%);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin-top: 235px;
+    right: 120px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaitomanocu
+{
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+}
