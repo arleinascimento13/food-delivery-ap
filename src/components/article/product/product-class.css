@@ -13,6 +13,9 @@ div.product-bg
 .product-cover
 {
     width: 365px;
+    height: 238px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 div.text-area
@@ -21,8 +24,8 @@ div.text-area
     position: absolute;
     margin-top: 105px;
     width: 365px;
-    height: 130px;
-    border-radius: 0px 0px 18px 18px;
+    height: 132px;
+    border-radius: 0px 0px 24px 24px;
 }
 
 

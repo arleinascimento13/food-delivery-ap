@@ -1,7 +1,7 @@
 import { CgMenu, CgShoppingCart } from 'react-icons/cg'
 import './nav-bar.css'
 
-export default function NavBar() {
+export function NavBar() {
     
     return <>
 

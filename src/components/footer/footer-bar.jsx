@@ -1,6 +1,6 @@
 import './footer-style.css'
 
-export default function FooterBar()
+export function FooterBar()
 {
     return<>
     <div className="footer-bg">
